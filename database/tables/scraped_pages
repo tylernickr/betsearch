@@ -1,0 +1,8 @@
+DROP TABLE scraped_pages;
+
+CREATE TABLE scraped_pages
+(
+	id char(40) PRIMARY KEY,
+	url varchar(300),
+	time_accessed timestamp
+);
